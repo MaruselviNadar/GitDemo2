@@ -15,7 +15,7 @@ res.end(data);
 }
 else{
 res.writeHead(400,{'Content-Type': 'text/html'});
-res.end('Page not found');
+res.end('error');
 }
 });
 server.listen(3000, () =>{
